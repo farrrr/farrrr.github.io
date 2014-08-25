@@ -44,8 +44,6 @@ program_exists() {
 ## main()
 msg "Welcome to $app_name!"
 
-clone_repo  "Successfully cloned $app_name"
-
 for repos in "dotfiles" "bash-it" "far-vim"
 do
     while true
