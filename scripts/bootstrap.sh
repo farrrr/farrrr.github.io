@@ -44,7 +44,7 @@ program_exists() {
 ## main()
 msg "Welcome to $app_name!"
 
-for repos in "dotfiles" "bash-it" "far-vim"
+for repos in "dotfile" "bash-it" "far-vim"
 do
     while true
     do
